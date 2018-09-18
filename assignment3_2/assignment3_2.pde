@@ -11,7 +11,7 @@ void draw()
 {
   background(198, 78, 140);
  
-  for(int i = 0; i < 2 * PI * 98; i += 25)
+  for(int i = 0; i < 2 * PI * 100; i += 25)
   {
     
   stroke ((random(0, 255)), (random(0, 255)), (random(0, 255)));
