@@ -6,7 +6,7 @@ class Character
 
     int size = 20;
 
-    // costruktor 
+    // costruktor som skapar random fart och riktning på characters
     public  Character()
     {
         position = new PVector();
@@ -18,7 +18,7 @@ class Character
         velocity.y = random(10) - 5;
     }
 
-    // construktor
+    // construktor som skapar random fart och riktning på characters
     public Character(float x, float y)
     {
         position = new PVector(x, y);
@@ -26,6 +26,16 @@ class Character
         velocity = new PVector(x, y);
         velocity.x = random(10) - 5;
         velocity.y = random(10) - 5;
+    }
+
+    // construktor som skiljer på humans och zombies
+    public Character(float x, float y, float vx, float vy)
+    {
+        position = new PVector(x, y);
+
+        velocity = new PVector(vx, vy);
+        //velocity.x = vx;
+        //velocity.y = vy;
     }
 
     // Funktion som gör att Humans och Zombies inte stutsar på sidorna

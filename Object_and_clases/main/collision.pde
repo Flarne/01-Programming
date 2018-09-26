@@ -1,5 +1,5 @@
 
-
+	// Räknar ut avstånd mellan Zombie och human
 	boolean collision(float x1, float y1, int size1, float x2, float y2, int size2)
 	{
 		int maxDistance = size1 + size2;

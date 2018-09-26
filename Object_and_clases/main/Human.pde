@@ -5,8 +5,8 @@ class Human extends Character
 		super();
 	}
 
-	/*public Human(float x, float y)
+	public Human(float x, float y)
 	{
 		super(x, y);
-	}*/
+	}
 }
