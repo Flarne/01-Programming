@@ -27,8 +27,6 @@ void draw() {
   numberBorn ();
 
   generationFrame++;
-
-  //println ("Generations" + " " + generationFrame + " " + "Födda" + " " + populationFrame + " Döda " + notAlive);
 }
 
 void gameBackground () {
