@@ -20,7 +20,7 @@ public class GameObject {
   void draw() {
     if (alive) {
 
-      //Om vi lever, ritaspunkten ut och blir grön om det är 3 grannar
+      //Om vi lever, ritaspunkten ut och blir rosa om det är 3 grannar
       if (numberLivingNeighbours == 3) {
         r = changeRedColor + generationFrame * 10;
         g = 0;
@@ -29,7 +29,7 @@ public class GameObject {
         ellipse(x, y, size, size);
       }
 
-      // Om vi lever, ritas punkten ut och blir röd om det är 2 grannar
+      // Om vi lever, ritas punkten ut och blir ljusblå om det är 2 grannar
       if (numberLivingNeighbours == 2) {
         r = 0;
         g = changeGreenColor + generationFrame * 10;
